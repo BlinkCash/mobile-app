@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "791340365355",
+    "firebase_url": "https://blinkcash-faae5.firebaseio.com",
+    "project_id": "blinkcash-faae5",
+    "storage_bucket": "blinkcash-faae5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791340365355:android:363bea0e9887a0da959c6e",
+        "android_client_info": {
+          "package_name": "com.ng.blinkcash.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791340365355-e66g7s9u2c3d6nqr1ed4btk750dhcshq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvSabwYVjFKSBjaIJmQeXGbB46vtQvAJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791340365355-e66g7s9u2c3d6nqr1ed4btk750dhcshq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "791340365355-u6prp7vqe00gigvh7nlcjkv5thjp6k7a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "blinkcashng.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791340365355:android:16f08d3f2b1ba03b959c6e",
+        "android_client_info": {
+          "package_name": "ng.blinkcash.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791340365355-e66g7s9u2c3d6nqr1ed4btk750dhcshq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvSabwYVjFKSBjaIJmQeXGbB46vtQvAJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791340365355-e66g7s9u2c3d6nqr1ed4btk750dhcshq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "791340365355-u6prp7vqe00gigvh7nlcjkv5thjp6k7a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "blinkcashng.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

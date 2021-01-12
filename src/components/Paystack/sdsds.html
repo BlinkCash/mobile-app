@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>React Native Debugger</title>
+</head>
+<body>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<script>
+    document.addEventListener("message", function (data) {
+        var options = JSON.parse(data.data);
+        payWithPaystack(options);
+    });
+
+    function payWithPaystack(options) {
+        var handler = PaystackPop.setup({
+            key: options.paystackKey,
+            email: options.email,
+            amount: Number(options.amount * 100),
+            currency: options.currencyInitials,
+            metadata: {
+                custom_fields: [
+                    {
+                        display_name: "Mobile Number",
+                        variable_name: "mobile_number",
+                        value: "+2348012345678"
+                    }
+                ]
+            },
+            callback: function (response) {
+                window.postMessage(JSON.stringify(response));
+            },
+            onClose: function () {
+                var closeError = {error: "Popup closed by user "};
+                window.postMessage(JSON.stringify(closeError));
+            }
+        });
+        handler.openIframe();
+    }
+</script>
+</body>
+</html>

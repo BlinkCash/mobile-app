@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Blinkcash",
+    "slug": "BlinkcashApp",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "blinkcashng.app",
+      "buildNumber": "5.0.0",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app uses the faceID for login authentication.",
+        "NSCameraUsageDescription": "This app uses the camera to get the user profile picture",
+        "NSPhotoLibraryAddUsageDescription": "This app uses the Save Photos feature to save the user's profile picture.",
+        "NSPhotoLibraryUsageDescription": "This app uses the Photo Library to get data for the user's profile picture."
+      }
+    },
+    "android": {
+      "package": "ng.blinkcash.app",
+      "versionCode": 3
+    },
+    "sdkVersion": "37.0.0"
+  }
+}

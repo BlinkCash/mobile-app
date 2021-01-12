@@ -1,0 +1,6 @@
+
+export const START_LOAD_MARKET = 'START_LOAD_MARKET';
+export const END_LOAD_MARKET = 'END_LOAD_MARKET';
+export const LOAD_MARKET = 'LOAD_MARKET';
+
+

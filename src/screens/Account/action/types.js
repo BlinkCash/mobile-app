@@ -1,0 +1,18 @@
+
+export const START_LOAD_CARDS = 'START_LOAD_CARDS';
+export const END_LOAD_CARDS = 'END_LOAD_CARDS';
+export const RESET_ACCOUNT_DATA = 'RESET_ACCOUNT_DATA';
+
+
+export const LOAD_CARDS = 'LOAD_CARDS';
+
+
+
+export const START_LOAD_BANKS = 'START_LOAD_BANKS';
+export const END_LOAD_BANKS = 'END_LOAD_BANKS';
+export const LOAD_BANKS = 'LOAD_BANKS';
+
+
+export const LOAD_PREFERENCES = 'LOAD_PREFERENCES';
+
+
